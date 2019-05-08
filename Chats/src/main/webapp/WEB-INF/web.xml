@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>users</servlet-name>
+		<servlet-class>com.revature.servlets.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>userreimbursement</servlet-name>
+		<servlet-class>com.revature.servlets.UserReimbursementServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>reimbursement</servlet-name>
+		<servlet-class>com.revature.servlets.ReimbursementServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>users</servlet-name>
+		<url-pattern>/users</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>userreimbursement</servlet-name>
+		<url-pattern>/userreimbursement</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>reimbursement</servlet-name>
+		<url-pattern>/reimbursement</url-pattern>
+	</servlet-mapping>
+</web-app>
